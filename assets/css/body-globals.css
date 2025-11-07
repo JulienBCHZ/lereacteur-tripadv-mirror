@@ -1,0 +1,37 @@
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: "TS-Med", sans-serif;
+  color: black;
+  font-size: 54px;
+  font-weight: bold;
+  line-height: 70px;
+  letter-spacing: 1.1px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: "TS-Med", sans-serif;
+  color: black;
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: "TS-Med", sans-serif;
+  color: black;
+  font-size: 24px;
+  line-height: 20px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+  font-size: 20px;
+  line-height: 24px;
+}

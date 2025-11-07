@@ -1,0 +1,33 @@
+/* --- RESPONSIVE --- */
+
+.menu {
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.menu .hidden {
+  display: flex;
+}
+
+.category {
+  flex: 0 0 calc(25% - (30px / 4));
+  height: auto;
+}
+
+.pictures {
+  height: 370px;
+  gap: 3px;
+}
+
+.main-picture {
+  flex: 5;
+  display: flex;
+  position: relative;
+}
+
+.carrousel {
+  margin-right: 20px;
+}
+.carrousel articles {
+  width: calc((100% - 45px) / 3.1);
+}

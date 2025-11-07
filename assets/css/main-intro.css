@@ -1,0 +1,118 @@
+main {
+  margin-top: 60px;
+}
+
+h1 > span {
+  color: #ff5d5d;
+}
+
+/* --- MAIN MENU ---*/
+
+.menu .hidden {
+  display: none;
+}
+
+.baseline {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+.baseline a {
+  color: #333333;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 26px;
+}
+.category {
+  border: black solid 1px;
+  height: 66px;
+  width: 175px;
+  border-radius: 15px;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.category span {
+  font-family: "TS-Reg", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.category i {
+  font-size: 24px;
+}
+
+/* --- MAIN PICTURES ---*/
+
+.pictures {
+  height: 430px;
+  display: flex;
+  gap: 3px;
+}
+
+.main-picture {
+  flex: 4;
+  display: flex;
+  position: relative;
+}
+.main-picture > img {
+  width: 100%;
+}
+
+.pictures > div {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.pictures > div > img {
+  height: calc(50% - 1px);
+  object-fit: cover;
+}
+
+.icon-main-picture {
+  color: white;
+  background-color: black;
+  height: 36px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  font-size: 12px;
+  font-family: "TS-Reg", sans-serif;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  cursor: pointer;
+}
+.icon-main-picture:hover {
+  background-color: #333333;
+}
+
+/* --- LOCATION --- */
+
+.location {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.location span {
+  font-family: "TS-Reg";
+  font-size: 12px;
+  line-height: 16px;
+}
+.location i {
+  font-size: 12px;
+}
+.location-select {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

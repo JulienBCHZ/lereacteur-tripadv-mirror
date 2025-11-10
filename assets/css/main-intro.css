@@ -32,6 +32,8 @@ h1 > span {
   height: 66px;
   width: 175px;
   border-radius: 15px;
+  text-decoration: none;
+  color: black;
   padding: 12px 15px;
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,10 @@ h1 > span {
 }
 .category i {
   font-size: 24px;
+}
+.category:hover {
+  background-color: black;
+  color: white;
 }
 
 /* --- MAIN PICTURES ---*/

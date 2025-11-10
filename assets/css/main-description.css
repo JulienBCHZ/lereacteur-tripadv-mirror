@@ -42,6 +42,11 @@
   border-radius: 10px;
   border: none;
 }
+.voyage-col button:hover {
+  background-color: #333333;
+  cursor: pointer;
+}
+
 .map-picture {
   width: 100%;
   height: 190px;

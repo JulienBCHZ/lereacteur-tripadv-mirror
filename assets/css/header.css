@@ -48,6 +48,9 @@ header nav i {
   border: none;
   padding: 10px;
 }
+.btn-signup:hover {
+  background-color: #333333;
+}
 
 .header-style {
   display: flex;

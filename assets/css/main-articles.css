@@ -62,11 +62,23 @@ aside a {
   flex-shrink: 0;
   width: calc((100% - 30px) / 3);
 }
+.carrousel a {
+  text-decoration: none;
+  color: black;
+  flex-shrink: 0;
+  width: calc((100% - 30px) / 3);
+}
+
+.carrousel a:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+}
 
 .carrousel-picture-container {
   height: 200px;
   position: relative;
 }
+
 .carrousel-picture-container > img {
   height: 195px;
   width: 100%;
